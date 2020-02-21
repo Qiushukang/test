@@ -1,0 +1,36 @@
+/* //按钮及背景 */
+.bg-light{
+	background-color: black !important;
+}
+a.nav-link{
+	color: #fff !important;
+}
+button.navbar-toggler{
+	background-color: #333;
+}
+.navbar-light .navbar-toggler-icon{
+	background-image: url(../images/header/三条杠.png);
+}
+
+/* //右侧导航 */
+.collapse.navbar-collapse>ul{
+	margin-right: 86px !important;
+	margin: 0 auto;
+	font-weight: bold !important;
+	font-size:17px ;
+}
+
+/* //下拉菜单 */
+.dropdown-menu{
+	overflow: hidden;
+}
+.dropdown-item{
+	transition: 1s;
+	font-weight: bold;
+}
+.dropdown-item:hover{
+	margin-left: 10px;
+}
+a.nav-link.dropdown-toggle::after{
+	vertical-align: 0.15em;
+}

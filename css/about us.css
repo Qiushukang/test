@@ -1,0 +1,67 @@
+.yellowText{
+	    color: #ffc905;
+	    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+	    font-size: 0.85em;
+	    text-transform: uppercase;
+	    letter-spacing: 1px;
+}
+h4.title{
+	color: #444;
+	font-size: 1.8rem;
+}
+p.artical1{
+	    margin: 0;
+	    font-size: 1.1rem;
+	    line-height: 1.8rem;
+	    letter-spacing: 1px;
+	    color: #707579;
+}
+.paddingLeftRight{
+	padding-left: 15px;
+}
+.adv{
+	background: url(../images/index/ban3.jpg);
+	background-position: center;
+	background-size: cover;
+
+}
+.adv>div{
+	background: rgba(0,0,0,.6);
+}
+.adv h5{
+	font-size: 2.8rem;
+}
+.adv>div>div h6{
+	color: #fff;
+}
+.ourTeam{
+	width: 75%;
+	margin: auto;
+}
+.ourTeam>div>img{
+	width: 100%;
+	box-shadow: 0 20px 40px -10px rgba(0, 0, 0, .3);
+}
+.ourTeam>div h4{
+	font-size: 1.2rem;
+	text-align: center;
+}
+.ourTeam>div p{
+	font-size: 1.1rem;
+	color: dimgray;
+	text-align: center;
+}
+.ourTeam>div>div{
+	justify-content:center;
+}
+.ourTeam>div>div>div{
+	background-color: #16181B;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin-right: 10px;
+}
+.ourTeam>div>div>div img{
+	width: 1.0rem;
+}

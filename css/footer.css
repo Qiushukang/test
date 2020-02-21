@@ -1,0 +1,32 @@
+.footer{
+	background: url(../images/footer/banner2.jpg);
+}
+.footer .row,.footer>div{
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	font-size: 1.15rem;
+}
+.footer .row>div{
+	padding: 0 5%;
+}
+.footer hr{
+	border-top: 1px solid rgba(251, 247, 247, 0.1);
+}
+.footer p{
+	margin: 0;
+}
+.upToTop{
+	width: 35px;
+	height:35px;
+	background: #000000;
+	position: absolute;
+	right:20px ;
+	bottom: 20px;
+	font-size: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 2px solid #fff;
+}
