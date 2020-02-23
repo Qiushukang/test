@@ -1,0 +1,27 @@
+.bg{
+	    background: #f6f6f6;
+}
+div.container.row>div>div{
+	padding: 0 5px 0;
+}
+
+div.container.row>div>div>div>div:last-child{
+	background-color: #fff !important;
+}
+.bg .row p{
+	    margin: 0;
+	    font-size: 17px;
+	    line-height: 1.8em;
+	    letter-spacing: 1px;
+	    color: #707579;
+	    
+}
+
+@media screen and (min-width:992px) and (max-width:1300px){
+	.bg .row p{
+			    font-size: 12px;
+	}
+	.bg h4{
+		font-size: 20px;
+	}
+}
